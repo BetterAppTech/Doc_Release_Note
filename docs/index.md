@@ -1,4 +1,5 @@
 layout: default
+title: Home
 
 ## 2.9.3.1
 - Added Calendar integration support for the Ad SDK
