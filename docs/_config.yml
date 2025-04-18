@@ -3,8 +3,4 @@ description: "Public release notes for our SDK"
 baseurl: "/Doc_Release_Note" # Adjust if your repository name differs
 url: "https://betterapptech.github.io"
 
-theme: minima
-
-sass:
-  sass_dir: _sass
-  style: compressed
+theme: jekyll-theme-cayman
