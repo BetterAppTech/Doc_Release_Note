@@ -1,3 +1,5 @@
 theme: minima
 title: ""
 name: ""
+sass:
+  style: compressed
