@@ -1,5 +1,10 @@
+title: "SDK Release Notes"
+description: "Public release notes for our SDK"
+baseurl: "/Doc_Release_Note" # Adjust if your repository name differs
+url: "https://betterapptech.github.io"
+
 theme: minima
-title: ""
-name: ""
+
 sass:
+  sass_dir: _sass
   style: compressed
