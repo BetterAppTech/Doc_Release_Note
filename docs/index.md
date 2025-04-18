@@ -1,5 +1,3 @@
-# 广告 SDK Release Note
-
 ## 2.9.3.1
 - Added Calendar integration support for the Ad SDK
 - Exposed `sInitReady` and `sAdConfigFetcher` in `MediaAdLoader`
