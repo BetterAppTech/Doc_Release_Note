@@ -1,3 +1,5 @@
+# 📦 Ad SDK Release Notes
+
 ## 2.9.3.1
 - Added Calendar integration support for the Ad SDK
 - Exposed `sInitReady` and `sAdConfigFetcher` in `MediaAdLoader`
@@ -7,4 +9,4 @@
 - Optimized ad initialization process with logging for individual ad network initialization results
 - Improved DT Banner auto-refresh logic
 
-👉 [查看完整发布记录](./ad_sdk_release_note.md)
+👉 [See All Release Notes](./ad_sdk_release_note.md)
