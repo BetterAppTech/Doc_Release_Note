@@ -1,4 +1,4 @@
-# BetterAppTech Ad SDK Release Notes
+# BetterApp Ad SDK Release Notes
 
 ## 2.9.3.1
 - Added Calendar integration support for the Ad SDK
