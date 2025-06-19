@@ -44,7 +44,7 @@ public void reLoadAd() {
 }
 ```
 
-### 精简 UMP 集成方式
+### 4.精简 UMP 集成方式
 - 客户端依然可以维持原有方案实现UMP，也可选择统一调用 `MediaAdLoader.checkUMP(...)`，统一埋点上报与后续UMP规则更新
 
 
