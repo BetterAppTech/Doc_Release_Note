@@ -5,9 +5,8 @@
 ### 📝 修改点摘要
 1. 升级主要广告网络 SDK 版本
 2. 重构广告埋点逻辑，支持离线场景展示广告
-3. 热启动时广告预拉取优化
-4. 在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
-5. 精简 UMP 集成方式，统一调用 `MediaAdLoader.checkUMP(...)`
+3. 热启动时广告预拉取优化，在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
+4. 精简 UMP 集成方式，可选择统一调用 `MediaAdLoader.checkUMP(...)`
 
 ---
 
@@ -30,13 +29,7 @@
 
 ---
 
-### 3. 热启动时广告预拉取优化
-- 在应用热启动阶段，SDK 初始化完成后**自动触发一次广告拉取**
-- 确保开屏、插屏、Banner、MREC 等不同广告位在快速打开场景的可用性
-
----
-
-### 4. 在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
+### 3. 热启动时广告预拉取优化，在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
 - 提供手动触发广告预加载的入口，适用于用户主动刷新或特定场景下的二次拉取
 
 ```java
