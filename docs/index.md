@@ -30,7 +30,7 @@
 ---
 
 ### 3. 热启动时广告预拉取优化，在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
-- 提供手动触发广告预加载的入口，适用于用户主动刷新或特定场景下的二次拉取
+- 提供触发热启动时广告预拉取的入口，适用于用户长时间离开应用后返回的二次拉取
 
 ```java
 @Override
@@ -43,6 +43,10 @@ public void reLoadAd() {
     }
 }
 ```
+
+### 精简 UMP 集成方式
+- 客户端依然可以维持原有方案实现UMP，也可选择统一调用 `MediaAdLoader.checkUMP(...)`，统一埋点上报与后续UMP规则更新
+
 
 👉 [See All Release Notes](./ad_sdk_release_note.md)
 
