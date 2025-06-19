@@ -1,13 +1,13 @@
 # BetterApp Ad SDK Release Notes
 
-## 3.0.0.0
+## com.betterapp.sdk:ads:3.0.0.0
 
 ### 📝 修改点摘要
 1. 升级主要广告网络 SDK 版本
 2. 重构广告埋点逻辑，支持离线场景展示广告
 3. 热启动时广告预拉取优化
 4. 在 `AdConfigFetcher` 中新增 `reLoadAd()` 接口
-5. 精简 UMP 集成方式，统一调用 `MediaAdLoader.checkUMP(this)`
+5. 精简 UMP 集成方式，统一调用 `MediaAdLoader.checkUMP(...)`
 
 ---
 
@@ -25,7 +25,7 @@
 ---
 
 ### 2. 重构广告埋点逻辑，支持离线场景展示广告
-- 更新 `MediaAdLoader.isAdComeNetworkOpen(Constants.SCENE_SAVE_INTER, true, SharedPrefUtils.getChangeSaveCount() > 0)` 方法逻辑
+- 更新 `MediaAdLoader.isAdComeNetworkOpen(...)` 方法逻辑
 - 无网络时不再阻断广告展示，依赖本地缓存素材实现离线广告播放
 
 ---
@@ -49,3 +49,5 @@ public void reLoadAd() {
         preloadAd(activity, Constants.RT_OPEN_ADS);
     }
 }
+```
+
